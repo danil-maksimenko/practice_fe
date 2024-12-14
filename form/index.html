@@ -6,7 +6,7 @@
     <title>Document</title>
   </head>
   <body>
-    <form action="https://www.youtube.com/results" method="get">
+    <form action="#" method="get">
       <div>
         <label for="query">Введите запрос</label>
         <input
@@ -15,6 +15,18 @@
           id="query"
           name="search_query"
         />
+      </div>
+      <div>
+        <label for="agree">Согласен с обработкой данных</label>
+        <input type="checkbox" name="agree" id="agree">
+      </div>
+      <div>
+        <input type="radio" name="search" id="all" value="all">
+        <label for="all">Поиск повсюду</label>
+      </div>
+      <div>
+        <input type="radio" name="search" id="youtube" value="youtube">
+        <label for="youtube">Поиск на YouTube</label>
       </div>
       <button>Искать на YouTube</button>
     </form>
